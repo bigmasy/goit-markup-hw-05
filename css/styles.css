@@ -740,7 +740,6 @@ header {
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   margin-right: 8px;
