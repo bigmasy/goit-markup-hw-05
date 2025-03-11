@@ -638,7 +638,7 @@ header {
   margin-bottom: 8px;
 }
 .modal-form-field-textarea {
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 .modal-form-label {
   display: block;
@@ -722,7 +722,6 @@ header {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-bottom: 24px;
   margin-bottom: 24px;
   display: flex;
   align-items: center;
