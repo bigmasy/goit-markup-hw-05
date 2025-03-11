@@ -751,8 +751,7 @@ header {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-chekbox {
-}
+
 .modal-chekbox:checked + .modal-form-agreement .custom-chekbox {
   border-color: transparent;
   background-color: var(--ocean);
@@ -767,4 +766,19 @@ header {
 }
 .modal-form-privacy {
   margin-bottom: 24px;
+}
+.btn-modal-submit {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--iris);
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
