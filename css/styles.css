@@ -724,8 +724,8 @@ header {
   line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 24px;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .modal-form-checkbox-icon {
