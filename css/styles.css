@@ -719,13 +719,12 @@ header {
   text-underline-position: from-font;
 }
 .modal-form-agreement {
-  color: var(--light-slate);
+  cursor: pointer;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-bottom: 24px;
-  display: flex;
-  align-items: center;
+  color: var(--light-slate);
 }
 
 .modal-form-checkbox-icon {
@@ -740,9 +739,9 @@ header {
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  display: inline-flex;
   margin-right: 8px;
   background-color: var(--white);
   fill: transparent;
