@@ -519,6 +519,8 @@ header {
   letter-spacing: 0.04em;
   flex-shrink: 0;
   outline: none;
+  padding-left: 16px;
+  min-width: 165px;
 }
 .form-email::placeholder {
   color: var(--white);
@@ -543,7 +545,6 @@ header {
   border: 0;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 24px;
 }
 .btn-subscribe:hover,
 .btn-subscribe:focus {
@@ -588,6 +589,7 @@ header {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   padding: 72px 24px 24px 24px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-modal-close {
   position: absolute;
@@ -605,11 +607,13 @@ header {
   border: rgba(0, 0, 0, 0.1) solid 1px;
   border-radius: 50%;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-modal-close:hover,
 .btn-modal-close:focus {
   background-color: var(--ocean);
+  border: none;
 }
 .icon-close {
   fill: var(--navy-blue);
@@ -623,6 +627,7 @@ header {
   color: var(--navy-blue);
 
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
@@ -640,8 +645,9 @@ header {
   display: block;
   color: var(--light-slate);
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 
 .modal-form-wrapper {
